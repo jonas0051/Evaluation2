@@ -1,0 +1,101 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* header */
+
+header{
+    height: 500px;
+    width: 100%;
+    /* background-image: url('img/background1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#menuBurger{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    border: 1px solid white;
+    padding: 2px;
+    cursor: pointer;
+         
+}
+
+#menuBurger>div{
+    height: 2px;
+    margin: 2px 5px;
+    background-color: grey;
+       
+}
+
+#bandeau{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    background: white;
+    height: 180px;
+    display: none;
+
+}
+
+#bandeau>div>a {
+    color: grey;
+    text-decoration: none;
+
+}
+
+#recherche{
+    background-color: rgb(128, 128, 128, 0.8);
+    height: 45px;
+    position: absolute;
+    top: 380px;
+
+}
+
+#buttonSearch{
+    background-color: rgb(40, 175, 95);
+    color: white;
+    height: 45px;
+    width: 200px;
+    font-size: 14px;
+    border: 0;
+    cursor: pointer;
+}
+
+.inputSearch{
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    
+}
+
+/* main */
+
+#filter{
+    height: 45px;
+    border-color: grey;
+}
+
+/* footer */
+
+#agenceInfo>ul{
+
+list-style: none;
+font-size: 11px;
+
+
+}
+
+#agencePhoto{
+    background-image: url(img/agence.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 180px;
+}
